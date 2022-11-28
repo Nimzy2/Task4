@@ -5,17 +5,18 @@
 // Java Program to check if an array contains a given value
  */
 package array;
-
+  
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array
         {
 public static void main(String[] args) {
+        //creating an array
    int[] array = {1,2,4,5,6,7,9,10,20,45,15,30,77,54,60};
 System.out.println(Arrays.toString(array));
 
-
+//static scanner object
 Scanner input= new Scanner (System.in);
 System.out.println("Enter Number");
 int find = input.nextInt();
@@ -27,7 +28,7 @@ for(int element:array){
        break;
    }
 }
-// if else statements
+// if else statement
 if(check){
    System.out.println(find + " " + "The number found at index");
 }
