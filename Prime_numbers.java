@@ -32,6 +32,8 @@ public static boolean isPrime(int number)
     return true;
 }
 
+ 
+ //Method that displays prime numbers between 1-500
 public static Void mainmethod(){
     
      System.out.println("Prime numbers from 1-500");
